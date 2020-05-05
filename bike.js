@@ -26,8 +26,8 @@ class Bike{
         this.currentMileage = (time)*this.currentVelocity + this.currentMileage;
     }
 
-    changeVelocity(newVeloicty){
-        this.currentVelocity = newVeloicty;
+    changeVelocity(newVelocity){
+        this.currentVelocity = newVelocity;
     }
 
     startBike(startVelocity){
